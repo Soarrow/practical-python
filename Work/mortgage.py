@@ -6,9 +6,9 @@ principal = 500000.0
 rate = 0.05
 payment = 2684.11
 total_paid = 0.0
-extra_start_month = 0
-extra_end_month = 12
-extra_payment = 1000
+extra_start_month = int(input('Enter which month you want to start extra payments: '))
+extra_end_month = int(input('Enter which month you want to end extra payments: '))
+extra_payment = int(input('Enter extra payment amount: '))
 month = 0;
 
 while principal > 0:
